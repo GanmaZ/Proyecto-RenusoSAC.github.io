@@ -101,3 +101,28 @@ header .navegador .nav .active {
   height: 300px;
   border-radius: 0.7em;
 }
+
+.servicios .content{
+  font-size: large;
+  font-weight: 500;
+}
+.servicios .img{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 0.7em;
+}
+.servicios .glass{
+  margin: auto;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+.gale .img{
+  margin:auto;
+  width: 300px;
+  height: 200px;
+  border-radius: 0.7em;
+}
+.gale .gal{
+  text-align: center;
+}
