@@ -82,3 +82,7 @@ header .navegador .nav .active {
   font-size: large;
   letter-spacing: 0.1em;
 }
+
+.otherproducts .card-title{
+    text-align: center;
+}
