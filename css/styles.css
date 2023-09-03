@@ -45,42 +45,40 @@ header .navegador .nav .active {
     padding-bottom: 10px;
 }
 
-.card {
+.newproducts .card {
   flex-direction: row;
   max-width: 80em;
   border: 0;
-  
   color: #fff;
   box-shadow: 0 7px 7px rgba(0, 0, 0, 0.18);
 }
-.card img {
+.newproducts .card-img-top {
   max-width: 25%;
   margin: auto;
   padding: 0.5em;
   border-radius: 0.7em;
 }
-.card-body {
+.newproducts .card-body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-.text-section {
+.newproducts .text-section {
   max-width: 90%;
 }
-.cta-section {
+.newproducts .cta-section {
   max-width: 40%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
 }
-.cta-section .btn {
+.newproducts .cta-section .btn {
   padding: 0.2em 0.5em;
   font-size: 1em;
   color: #696969;
 }
-.card-text {
+.newproducts .card-text {
   font-size: large;
   letter-spacing: 0.1em;
 }
-
