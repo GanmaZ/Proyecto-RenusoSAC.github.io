@@ -1,0 +1,47 @@
+
+header{
+    font-size: large;
+}
+
+header .logo{
+    cursor: pointer;
+}
+  
+header .logo img {
+      width: 400px;
+      height: 50;
+      transition: all 0.3s;
+}
+  
+header .logo img:hover{
+      transform: scale(1.2);
+}
+ 
+header .navegador {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+    display: inline-block;
+    margin-right: 10px;
+}
+header .navegador li:hover {
+    transform: scale(1.1);
+} 
+header .navegador .nav-link {
+    color: rgba(55,52,53,255);
+    font-weight: bold;
+}
+header .navegador .nav .active {
+    background-color: rgba(237,50,55,255);
+}
+
+.abs-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
