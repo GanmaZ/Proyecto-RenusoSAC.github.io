@@ -133,3 +133,26 @@ header .navegador .nav .active {
   width: 160px;
   height: 80px;
 }
+
+.catalogo img{
+  width: 70px;
+  height: 70px;
+}
+.catalogo .card-title{
+  padding-top: 5px;
+  color: black;
+}
+.catalogo .card:hover{
+  transform: scale(1.1);
+}
+.catalogo .card{
+  transition: transform 0.2s ease;
+  box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+  border-radius: 0;
+  border: 0;
+  margin-bottom: 1.5em;
+}
+.catalogo a{
+  text-decoration-color: rgb(240,52,56);
+}
+
